@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: configmap
+metadata:
+  name: nginx-configmap
+data:
+  course: "kubernetes"
+  duration: "10hours"
+    
