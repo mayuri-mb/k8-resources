@@ -6,6 +6,8 @@ metadata:
     project: roboshop
     tier: frontend
     component: frontend
+  annotations:
+    kubernetes.io/change-cause:"moving to 1.29"  
 spec:
   replicas: 3
   selector:
@@ -21,8 +23,8 @@ spec:
         component: frontend  
     spec:
       containers:
-        - name: nginx
-          image: nginx
+        - name: nginx 
+          image: nginx:1.29
 
 
 
