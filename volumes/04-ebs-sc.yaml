@@ -4,3 +4,4 @@ metadata:
   name: roboshop-ebs
 provisioner: ebs.csi.aws.com   # Change to your environment's provisioner
 volumeBindingMode: WaitForFirstConsumer # Delay volume binding until pod is scheduled
+reclaimPolicy: Retain 
