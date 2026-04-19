@@ -13,7 +13,7 @@ spec:
 apiVersion: v1
 kind: Pod 
 metadata:
-  name: efs-dynamic
+  name: app
 spec:
   containers:
     - name: nginx
